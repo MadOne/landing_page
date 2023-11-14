@@ -1,0 +1,193 @@
+html {background-color: black}
+
+.spacing {
+    display: flex;
+    flex-direction: row;
+}
+.empty_space {
+    background-color: black;
+    flex: 1 10 auto;
+}
+
+.layout {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    flex: 1 1 250px;
+}
+
+.hero {
+    background-color: #1f2937;
+    flex: auto;
+    display: flex;
+    color: white;
+    height: 300px;
+    padding-left: 100px;
+    padding-right: 100px;
+    flex-direction: column;
+}
+
+.header {
+    flex-direction: row;
+    flex: auto;
+    display: flex;
+}
+
+.header2 {
+    flex-direction: row;
+    flex: auto;
+    display: flex;
+}
+
+.navbar {
+    list-style-type: none;
+    display: flex;
+    flex: 1;
+    gap: 20px;
+}
+
+.info {
+    background-color: white;
+    flex: auto;
+    height: 300px;
+    padding: 20px;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.images {
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    font-size: 14px;
+    flex: auto;
+}
+
+.img_text {
+    width: 100px;
+    font-weight: 300;
+    text-align: center;
+}
+
+
+.quote {
+    background-color: #e5e7eb;
+    flex: auto;
+    height: 250px;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+    font-style: italic;
+    padding: 50px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.cta {
+    background-color: white;
+    color:white;
+    flex: auto;
+    height: 200px;
+    display: flex;
+}
+
+.cta_box {
+    background-color: #3882f6;
+    border-radius: 5px;
+    margin: 50px;
+    padding: 25px;
+    flex: 1;
+    margin: auto 100px;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.footer {
+    background-color: #1f2937;
+    height: 50px;
+    flex: auto;
+    display: flex;
+}
+
+.copyright {
+    flex: auto;
+    color: white;
+}
+
+.centered {
+    margin: auto;
+    text-align: center;
+}
+
+
+.header_logo {
+    color: white;
+    display: inline;
+    font-size: 24px;
+    flex: 1
+}
+
+a {
+    color: #e5e7eb;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+button {
+    background-color: #3882f6;
+    color: white;
+    border: none;
+    height: 40px;
+    width: 175px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 15px;
+    font-weight: 800;
+    border-radius: 5px;
+}
+
+.signup {
+    border-radius: 5px;
+    border: 2px solid white;
+
+}
+
+.right {
+    text-align:right;
+    display: block;
+}
+
+.img_placeholder {
+    height: 100px;
+    width: 100px;
+    border: 2px solid #3882f6;
+    background-color: white;
+    border-radius: 10px;
+    flex: 2;
+}
+
+h3 {
+    display: block;
+}
+
+.awesome {
+    font-size: 20px;
+}
+
+.img_placeholder2 {
+    width: 400px;
+    height: 150px;
+    background-color: #a8aaae;
+    flex: 1;
+}
+
+.awesome_contaner {
+    flex: 1
+}
